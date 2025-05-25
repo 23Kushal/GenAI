@@ -1,1 +1,2 @@
-embed-english-v3.0 -> 512 max tokens (contect length) ... input length over api
+To run any app use : "streamlit run FILENAME" in the terminal 
+example : streamlit run geminiClone.py

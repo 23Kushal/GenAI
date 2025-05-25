@@ -9,7 +9,7 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
 from langchain_core.documents import Document
-from langchain.llms import Cohere as CohereLLM
+from langchain_community.llms import Cohere as CohereLLM
 from langchain.embeddings.base import Embeddings
 import cohere
 

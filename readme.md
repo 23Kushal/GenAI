@@ -1,0 +1,1 @@
+embed-english-v3.0 -> 512 max tokens (contect length) ... input length over api

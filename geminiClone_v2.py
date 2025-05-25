@@ -169,9 +169,9 @@ if submit_button:
                     )
                     answer = response.text
 
-                safe_response = html.escape(answer)
+                # Store the raw answer in history
                 # Use st.session_state.user_input (which is user_query) for history
-                st.session_state.history.append((user_query, safe_response)) 
+                st.session_state.history.append((user_query, answer)) 
                 st.session_state.user_input = ""  # Clear session state for the input field
                 st.rerun()
 
